@@ -16,8 +16,8 @@ Your Privacy-First AI Financial Companion. CashLens helps you track expenses, ma
 
 - [☁️ Deployment](#%EF%B8%8F-deployment)
 
-  - [Deploy on Netlify](#deploy-on-netlify)
-  - [Deploy on AWS Amplify](#deploy-on-aws-amplify)
+  - [Deploy on Netlify](#option-1-deploy-to-netlify-recommended)
+  - [Deploy on AWS Amplify](#option-2-deploy-to-aws-amplify)
 
 - [🔒 Privacy Policy](#-privacy-policy)
 
