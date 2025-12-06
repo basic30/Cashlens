@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { Helmet } from 'react-helmet';
 import PrimaryNavigation from '../../components/ui/PrimaryNavigation';
 import BudgetCategoryCard from './components/BudgetCategoryCard';
@@ -9,87 +9,18 @@ import QuickPresetButtons from './components/QuickPresetButtons';
 import AnomalyDetectionSettings from './components/AnomalyDetectionSettings';
 import Icon from '../../components/AppIcon';
 import Button from '../../components/ui/Button';
+import { useData } from '../../context/DataContext';
 
 const BudgetSettings = () => {
-  const [budgetCategories, setBudgetCategories] = useState([
-    {
-      category: 'Food',
-      icon: 'UtensilsCrossed',
-      currentSpending: 8500,
-      budgetLimit: 10000,
-      alertThreshold: 80
-    },
-    {
-      category: 'Groceries',
-      icon: 'ShoppingCart',
-      currentSpending: 6200,
-      budgetLimit: 7000,
-      alertThreshold: 85
-    },
-    {
-      category: 'Travel',
-      icon: 'Car',
-      currentSpending: 4800,
-      budgetLimit: 5000,
-      alertThreshold: 90
-    },
-    {
-      category: 'Bills',
-      icon: 'FileText',
-      currentSpending: 3200,
-      budgetLimit: 3500,
-      alertThreshold: 80
-    },
-    {
-      category: 'Entertainment',
-      icon: 'Film',
-      currentSpending: 2800,
-      budgetLimit: 3000,
-      alertThreshold: 85
-    },
-    {
-      category: 'Shopping',
-      icon: 'ShoppingBag',
-      currentSpending: 5600,
-      budgetLimit: 5000,
-      alertThreshold: 80
-    },
-    {
-      category: 'Health',
-      icon: 'Heart',
-      currentSpending: 1800,
-      budgetLimit: 2500,
-      alertThreshold: 75
-    },
-    {
-      category: 'Others',
-      icon: 'MoreHorizontal',
-      currentSpending: 2100,
-      budgetLimit: 3000,
-      alertThreshold: 80
-    }
-  ]);
-
-  const [notificationPreferences, setNotificationPreferences] = useState({
-    push: true,
-    email: true,
-    sms: false,
-    frequency: 'instant',
-    defaultThreshold: '80',
-    anomalyDetection: true,
-    fraudDetection: true,
-    budgetExceed: true
-  });
-
-  const [anomalySettings, setAnomalySettings] = useState({
-    sensitivity: 'medium',
-    threshold: '200',
-    unusualAmount: true,
-    unusualTime: true,
-    unusualMerchant: true,
-    multipleTransactions: true,
-    geographicAnomaly: false
-  });
+  // Use data from global context
+  const { 
+    budgetCategories, 
+    setBudgetCategories,
+    notificationPreferences,
+    setNotificationPreferences,
+    anomalySettings,
+    setAnomalySettings
+  } = useData();
 
   const comparisonData = [
     { month: 'Aug', budget: 40000, spending: 35200 },
