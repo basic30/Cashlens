@@ -288,7 +288,7 @@ frontend:
       <td align="center" style="padding: 20px;">
         <div style="width:50px; height:50px; border-radius:50%; overflow:hidden; margin-bottom:8px;">
           <img src="https://i.ibb.co/S4k46Ggd/sania.png"
-               style="width:105%; height:105%; object-fit:cover;">
+               style="width:110%; height:110%; object-fit:cover;">
         </div>
         <b>Sania Ghosh</b><br>
         <i>UI & UX Designer</i><br>
