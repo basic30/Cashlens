@@ -246,6 +246,61 @@ frontend:
 
  4. Save. This ensures refreshing a page like `/budget-settings` works correctly.
 ---
+## 👨‍💻 Meet the Team
+
+<div align="center">
+  <table>
+    <tr>
+      <!-- Sneha -->
+      <td align="center" style="padding: 20px;">
+        <div style="width:50px; height:50px; border-radius:50%; overflow:hidden; margin-bottom:8px;">
+          <img src="https://i.ibb.co/zWw45FTJ/cropped-circle-image.png"
+               style="width:100%; height:100%; object-fit:cover;">
+        </div>
+        <b>Sneha Majumder</b><br>
+        <i>Project Leader</i><br>
+        <a href="https://github.com/SnehaMs325">GitHub</a> |
+        <a href="https://linkedin.com/in/sneha-majumder-tech001">LinkedIn</a>
+      </td>
+      <!-- Snahasish -->
+      <td align="center" style="padding: 20px;">
+        <div style="width:50px; height:50px; border-radius:50%; overflow:hidden; margin-bottom:8px;">
+          <img src="https://i.ibb.co/FLKgTN95/snahasish-2.png"
+               style="width:100%; height:100%; object-fit:cover;">
+        </div>
+        <b>Snahasish Dey</b><br>
+        <i>Frontend Developer</i><br>
+        <a href="https://github.com/basic30">GitHub</a> |
+        <a href="https://linkedin.com/in/snahasish-dey-959510328">LinkedIn</a>
+      </td>
+      <!-- Srijit -->
+      <td align="center" style="padding: 20px;">
+        <div style="width:50px; height:50px; border-radius:50%; overflow:hidden; margin-bottom:8px;">
+          <img src="https://i.ibb.co/zhzC3bYQ/srijit.png"
+               style="width:100%; height:100%; object-fit:cover;">
+        </div>
+        <b>Srijit Bhattacharya</b><br>
+        <i>Full-Stack Developer</i><br>
+        <a href="https://github.com/Sidibo">GitHub</a> |
+        <a href="https://linkedin.com/in/srijit-bhattacharya-46a9b4327">LinkedIn</a>
+      </td>
+      <!-- Sania -->
+      <td align="center" style="padding: 20px;">
+        <div style="width:50px; height:50px; border-radius:50%; overflow:hidden; margin-bottom:8px;">
+          <img src="https://i.ibb.co/S4k46Ggd/sania.png"
+               style="width:100%; height:100%; object-fit:cover;">
+        </div>
+        <b>Sania Ghosh</b><br>
+        <i>UI & UX Designer</i><br>
+        <a href="https://github.com/Sania2805">GitHub</a> |
+        <a href="https://linkedin.com/in/sania-ghosh-81311832b">LinkedIn</a>
+      </td>
+    </tr>
+  </table>
+</div>
+
+---
+
 ## 🔒 Privacy Policy
 CashLens is architected with a **Local-First** philosophy:
 
